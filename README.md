@@ -25,10 +25,9 @@ While the methods may vary, the ultimate goal remains consistent: optimizing con
 
 ### The Core of GraphRAG
 
-A key characteristic of GraphRAG is its heavy reliance on LLMs for two critical tasks:
+A key characteristic of GraphRAG is its heavy reliance on LLMs for one critical task:
 
 1. **Automatic Knowledge Graph Construction:** GraphRAG often employs LLMs to extract entities and relationships from textual data, automatically building a knowledge graph. This approach, while promising, introduces challenges related to LLM limitations such as bias, hallucinations, and difficulty in capturing complex relationships.
-2. **Query Understanding and Graph Traversal:** To effectively utilize the knowledge graph, GraphRAG relies on the LLM to understand user queries, identify relevant entities, and navigate the graph structure. This process can be error-prone, especially when dealing with ambiguous or complex queries.
 
 While GraphRAG offers potential benefits in terms of providing structured context, its effectiveness is contingent upon the accuracy and completeness of the automatically constructed knowledge graph, as well as the LLM's ability to accurately interpret the input.
 
